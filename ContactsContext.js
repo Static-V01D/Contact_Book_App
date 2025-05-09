@@ -41,7 +41,7 @@ export const ContactsProvider = ({ children }) => {
 
     loadContacts();
   };
-
+  
   const updateContact = async (updated) => {
     const realm = await getRealm();
     realm.write(() => {
