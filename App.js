@@ -7,6 +7,7 @@ import ContactListScreen from './src/screens/ContactListScreen';
 import ContactViewScreen from './src/screens/ContactViewScreen';
 import ContactFormScreen from './src/screens/ContactFormScreen';
 import { ContactsProvider } from './src/context/ContactsContext';
+import 'react-native-get-random-values'; // Needed for UUID
 
 
 const theme = {
